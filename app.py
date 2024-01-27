@@ -50,7 +50,7 @@ def run_command():
         else:
             message = "Device is in use" if "Access is denied" in device.m_ErrorMessage  else  "Failed to initialize device."
             result = {
-                "status": "FAILED",
+                "status": "This is a test from the pc",
                 "output": message
             }
             
