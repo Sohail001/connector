@@ -1,0 +1,9 @@
+INFO:root:Command: CHECK_STATUS
+INFO:root:Initializing COM4 device
+INFO:root:RUN INIT OEM
+INFO:root:END RUNNING INIT OEM
+INFO:root:COM4 initialized successfully!
+INFO:root:RUN CHECKSTATUS OEM
+INFO:root:>> 01 02 02 00 AA AA
+INFO:root:<< 01 02 03 00 01 29 B8
+INFO:root:COM4 is ready to use!
